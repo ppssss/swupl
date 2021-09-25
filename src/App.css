@@ -1,0 +1,20 @@
+@import '~antd/dist/antd.css';
+
+body{
+  padding: 0;
+}
+.App {
+  text-align: center;
+}
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu{
+  padding-right: 30px;
+  color: white;
+}
+.ant-menu-horizontal{
+  background: transparent;
+  border: transparent;
+  font-size: 15px;
+}
+a,a:visited{
+  color: black;
+}
